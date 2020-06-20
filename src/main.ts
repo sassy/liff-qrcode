@@ -2,7 +2,7 @@ import jsQR from 'jsqr';
 import { Point } from 'jsqr/dist/locator';
 
 liff.init({
-    liffId: ""
+    liffId: "1654373010-z8EJDM2V"
 })
 .then(() => {
     const video = document.createElement("video");
