@@ -1,13 +1,12 @@
 import jsQR from 'jsqr';
 import { Point } from 'jsqr/dist/locator';
 
-/*
 liff.init({
     liffId: "1654373010-z8EJDM2V"
 })
 .then(() => {
 });
-*/
+
     const video = document.createElement("video");
     const canvasElement : HTMLCanvasElement = <HTMLCanvasElement>document.getElementById("canvas");
     const canvas = <CanvasRenderingContext2D>canvasElement.getContext("2d");
