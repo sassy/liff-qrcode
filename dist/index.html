@@ -1,9 +1,10 @@
 <html>
     <body>
-        <div id="loadingMessage">🎥 Unable to access video stream (please make sure you have a webcam enabled)</div>
+        <input type="file" accept="image/*" capture="camera" id="capture"><br />
+        <div id="loadingMessage">not load</div>
         <canvas id="canvas" hidden></canvas>
         <div id="output" hidden>
-            <div id="outputMessage">No QR code detected.</div>
+            <div id="outputMessage">No QR code read.</div>
             <div hidden><b>Data:</b> <span id="outputData"></span></div>
         </div>
         <script src="https://static.line-scdn.net/liff/edge/2.1/sdk.js"></script>
