@@ -1,4 +1,5 @@
 import jsQR from 'jsqr';
+import liff from '@line/liff';
 
 const canvasElement : HTMLCanvasElement = <HTMLCanvasElement>document.getElementById("canvas");
 const canvas = <CanvasRenderingContext2D>canvasElement.getContext("2d");

@@ -1,8 +1,7 @@
-import { ConfigurationFactory } from 'webpack'
 import path from 'path'
 
-const config: ConfigurationFactory = () => {
-  return {
+const config =  {
+    mode: 'development',
     entry: {
       main: path.join(__dirname, 'src', 'main.ts')
     },
@@ -23,7 +22,6 @@ const config: ConfigurationFactory = () => {
     resolve: {
       extensions: ['.ts', '.js']
     },
-  }
 }
 
 export default config
