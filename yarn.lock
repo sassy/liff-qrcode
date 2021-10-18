@@ -62,10 +62,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/copy-webpack-plugin@6.4.1":
-  version "6.4.1"
-  resolved "https://registry.yarnpkg.com/@types/copy-webpack-plugin/-/copy-webpack-plugin-6.4.1.tgz#f2ab07def407c6a1fcfe626864b326c3584e2167"
-  integrity sha512-jnM0aMsaMTBr+xlMIO/fu+ZXIbSncmj4UB9ZHTXVfZJsUwGqtdfdSfz1/S8O99R9k7G5V6KhbAd8+QL0f2kUkg==
+"@types/copy-webpack-plugin@6.4.3":
+  version "6.4.3"
+  resolved "https://registry.yarnpkg.com/@types/copy-webpack-plugin/-/copy-webpack-plugin-6.4.3.tgz#6604f06a2c9ca4516a453d2e4f87bf844819bccd"
+  integrity sha512-yk7QO2/WrtkDLcsqQXfjU3EIYzggNHVl5y6gnxfMtCPB+bxVUIUzwb1BNxlk+78wENoh9ZgkVSNqn80T9rqO8w==
   dependencies:
     "@types/webpack" "^4"
 
